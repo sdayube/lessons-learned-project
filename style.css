@@ -62,7 +62,7 @@ body {
 }
 
 #conteudos {
-
+    line-height: 20px;
 }
 
 .artigo {
@@ -73,20 +73,30 @@ body {
     padding-left: 35px;
 }
 
+.lado-esquerdo {
+    position: absolute;
+    left: 35px;
+}
+
 .comentario {
     display: inline-block;
     width: 340px;
     padding-left: 70px;
     padding-right: 40px;
-    padding-top: 4px;
+    padding-top: 20px;
     margin-left: 50px;
     background-color: #00171F;
     color: white;
 }
 
+.lado-direito {
+    position: absolute;
+    right: 50px;
+}
+
 .comentario h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 .comentario p {
