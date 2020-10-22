@@ -4,8 +4,23 @@ body {
 
 #cabecalho {
     position: fixed;
+    top: 0px;
+    border-style: dashed;
+    margin-left: 450px;
+}
+
+#titulo {
+    
 }
 
 #minha_foto {
+    width: 300px;
+}
+
+.licoes {
+
+}
+
+#licoes_aprendidas {
 
 }
