@@ -2,7 +2,6 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Times New Roman', Times, serif;
 }
-
 #cabecalho {
     position: fixed;
     top: 0px;
@@ -12,18 +11,14 @@ body {
     padding-right: 200px;
     padding-left: 200px;
     background-color: #00A7E1;
-    
 }
-
 #titulo {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 #minha_foto {
     width: 300px;
     display: inline-block;
 }
-
 #licoes {
     padding-left: 35px;
     padding-left: 0px;
@@ -31,40 +26,32 @@ body {
     border-style: dotted;
     margin-bottom: 35px;
 }
-
 #licoes_aprendidas {
     display: inline-block;
     padding-right: 50px;
 }
-
 #licoes_a_aprender {
     display: inline-block;
     padding-left: 50px;
 }
-
 #rodape {
     font: normal 12px Helvetica;
     margin-top: 35px;
 }
-
 #menu {
     margin: auto;
 }
-
 #menu ul {
     list-style-type: circle;
     padding-bottom: 7px;
 }
-
 #menu ul li {
     display: inline;
     margin: 7px;
 }
-
 #conteudos {
     line-height: 20px;
 }
-
 .artigo {
     display: inline-block;
     width: 700px;
@@ -72,12 +59,10 @@ body {
     color: white;
     padding-left: 35px;
 }
-
 .lado-esquerdo {
     position: absolute;
     left: 35px;
 }
-
 .comentario {
     display: inline-block;
     width: 340px;
@@ -88,42 +73,34 @@ body {
     background-color: #00171F;
     color: white;
 }
-
 .lado-direito {
     position: absolute;
     right: 50px;
 }
-
 .comentario h3 {
     padding-top: 0px;
     padding-bottom: 20px;
 }
-
 .comentario p {
     padding-top: 0px;
 }
-
 .tabela {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 80%;
     margin-top: 50px;
 }
-
 .tabela td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
-
 .tabela th {
     background-color: #dddddd;
 }
-
 .comando {
     color: #003459;
 }
-
 .opcao {
     color: #00A7E1;
 }
