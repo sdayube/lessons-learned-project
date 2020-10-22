@@ -49,7 +49,7 @@ body {
     display: inline;
     margin: 7px;
 }
-#conteudos {
+.conteudos {
     line-height: 20px;
 }
 .artigo {
@@ -60,8 +60,8 @@ body {
     padding-left: 35px;
 }
 .lado-esquerdo {
+    display: inline-block;
     position: absolute;
-    left: 35px;
 }
 .comentario {
     display: inline-block;
@@ -69,26 +69,27 @@ body {
     padding-left: 70px;
     padding-right: 40px;
     padding-top: 20px;
-    margin-left: 50px;
     background-color: #00171F;
     color: white;
 }
 .lado-direito {
+    display: inline-block;
     position: absolute;
     right: 50px;
 }
-.comentario h3 {
+/*.comentario h3 {
     padding-top: 0px;
     padding-bottom: 20px;
-}
+}*/
 .comentario p {
-    padding-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 .tabela {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 80%;
-    margin-top: 50px;
+    margin-top: 300px;
 }
 .tabela td, th {
     border: 1px solid #dddddd;
