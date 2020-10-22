@@ -45,8 +45,6 @@ body {
 .lado-esquerdo {
   float: left;
   width: 50%;
-  /* vertical-align: top; */
-  /* margin: 10px 0 10px 30px; */
 }
 
 article h2 {
@@ -61,8 +59,8 @@ article p {
 .lado-direito {
   float: right;
   width: 30%;
-  /* vertical-align: top; */
-  /* padding: 30px 10px 30px 30px; */
+  padding: 30px 10px 30px 30px;
+  border-radius: 30px;
   background-color: rgb(39 , 7 , 61);
   color: antiquewhite;
 }
