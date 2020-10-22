@@ -42,7 +42,7 @@ display: inline-block;
 
 }
 
-.main_article {
+.lado-esquerdo {
   display: inline-block;
   width: 40%;
   vertical-align: top;
@@ -58,7 +58,7 @@ article p {
   line-height: 1.05em;
 }
 
-.sidebar {
+.lado-direito {
   display: inline-block;
   width: 15%;
   vertical-align: top;
