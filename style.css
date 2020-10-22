@@ -43,7 +43,8 @@ body {
 }
 
 #rodape {
-
+    font: normal 12px Helvetica;
+    margin-top: 35px;
 }
 
 #menu {
@@ -90,4 +91,29 @@ body {
 
 .comentario p {
     padding-top: 0px;
+}
+
+.tabela {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.tabela td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tabela th {
+    background-color: #dddddd;
+}
+
+.comando {
+    color: #003459;
+}
+
+.opcao {
+    color: #00A7E1;
 }

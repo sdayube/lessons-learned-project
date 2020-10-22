@@ -75,8 +75,62 @@
 
     </section>
 
-    <table>
-
+    <table class="tabela">
+        <tr>
+            <th>Comando</th>
+            <th>Opções</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td class="comando">git clone</td>
+            <td class="opcao">URL_do_repositório</td>
+            <td>Importa o repositório Git cujo link foi passado como parâmetro</td>
+        </tr>
+        <tr>
+            <td class="comando">git branch</td>
+            <td class="opcao">nome_da_branch</td>
+            <td>Cria uma nova branch a partir da atual</td>
+        </tr>
+        <tr>
+            <td class="comando">git checkout</td>
+            <td class="opcao">nome_da_branch</td>
+            <td>Sai da branch atual e vai para a indicada</td>
+        </tr>
+        <tr>
+            <td class="comando">git checkout</td>
+            <td class="opcao">SHA_do_commit</td>
+            <td>Vai para a versão da branch do commit informado</td>
+        </tr>
+        <tr>
+            <td class="comando">git checkout</td>
+            <td class="opcao">-b nome_da_branch</td>
+            <td>Cria uma branch e faz checkout pra ela</td>
+        </tr>
+        <tr>
+            <td class="comando">git status</td>
+            <td class="opcao"> </td>
+            <td>Verifica se existem modificações p/ adicionar ou commitar</td>
+        </tr>
+        <tr>
+            <td class="comando">git add</td>
+            <td class="opcao">.</td>
+            <td>Adiciona todas as modificações à Staging Area</td>
+        </tr>
+        <tr>
+            <td class="comando">git add</td>
+            <td class="opcao">nome_do_arquivo</td>
+            <td>Adiciona um arquivo específico à Staging Area</td>
+        </tr>
+        <tr>
+            <td class="comando">git commit</td>
+            <td class="opcao">-m "mensagem_desejada"</td>
+            <td>Commita as modificações que estão na Staging Area</td>
+        </tr>
+        <tr>
+            <td class="comando">git push</td>
+            <td class="opcao">-u origin nome_da_branch</td>
+            <td>Faz o primeiro push de uma branch para o repositório remoto (se houver)</td>
+        </tr>
     </table>
 
 
