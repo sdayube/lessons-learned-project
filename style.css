@@ -27,10 +27,10 @@ body {
 
 /* ----- Artigo ----- */
 .article_section {
-padding: 40px 0 40px max(10% , 100px);
-vertical-align: top;
-background-color: rgba(54 , 73 , 128 , 0.205);
-display: inline-block;
+  padding: 40px 0 40px max(10% , 100px);
+  vertical-align: top;
+  background-color: rgba(54 , 73 , 128 , 0.205);
+  display: inline-block;
 }
 
 #minha_foto {
@@ -46,7 +46,7 @@ display: inline-block;
   display: inline-block;
   width: 40%;
   vertical-align: top;
-  margin: 10px 0px 10px 30px;
+  margin: 10px 0 10px 30px;
 }
 
 article h2 {
@@ -63,7 +63,7 @@ article p {
   width: 15%;
   vertical-align: top;
   padding: 30px 10px 30px 30px;
-  background-color: #27073d;
+  background-color: rgb(39 , 7 , 61);
   color: antiquewhite;
 }
 
