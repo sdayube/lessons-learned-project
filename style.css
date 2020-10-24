@@ -42,6 +42,13 @@ nav li {
   border-radius: 3px;
   display: inline-block;
   margin-right: 7px;
+  color: black;
+}
+
+#cabecalho nav a:hover {
+  background-color: rgb(205 , 235 , 255);
+  border: solid 1px rgb(65 , 63 , 165);
+  padding: 5px;
 }
 
 /* ----- Artigo ----- */
