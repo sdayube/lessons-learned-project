@@ -11,6 +11,10 @@ body {
   margin-top: var(--header-height);
 }
 
+nav li {
+  display: inline-block;
+}
+
 /* ----- Cabeçalho ----- */
 #cabecalho {
   position: fixed;
@@ -142,9 +146,7 @@ article p {
 }
 
 /* ----- Rodapé ----- */
-nav li {
-  display: inline-block;
-}
+
 
 /* Referências:
 Arredondamento da tabela: https://shorturl.at/egzCJ 
