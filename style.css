@@ -29,6 +29,21 @@ nav li {
   margin-left: 30px;
 }
 
+#cabecalho nav {
+  float: right;
+  margin-top: -72px;
+  margin-right: 10px;
+}
+
+#cabecalho nav a {
+  text-decoration: none;
+  padding: 6px;
+  background-color: rgb(205 , 210 , 255);
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 7px;
+}
+
 /* ----- Artigo ----- */
 .article_section {
   padding: 40px 0 40px max(10% , 100px);
@@ -146,7 +161,10 @@ article p {
 }
 
 /* ----- Rodapé ----- */
-
+#rodape {
+  background-color: black;
+  padding: 1px;
+}
 
 /* Referências:
 Arredondamento da tabela: https://shorturl.at/egzCJ 
