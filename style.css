@@ -1,13 +1,11 @@
 body {
-    background-color: rgb(253 ,251 ,251);
-    font-family: Times New Roman, 
-        Times, 
-        serif;
+    background-color: rgb(253 , 251 , 251);
+    font-family: Times New Roman, Times, serif;
 }
 
 #cabecalho {
     position: fixed;
-    top: 0px;
+    top: 0;
     border-style: dashed;
     margin: 1px;
     margin-left: 400px;
@@ -26,7 +24,7 @@ body {
 }
 
 #licoes {
-    padding-left: 0px;
+    padding-left: 0;
     margin-right: 900px;
     border-style: dotted;
     margin-bottom: 35px;
@@ -43,7 +41,7 @@ body {
 }
 
 #rodape {
-    font: normal 12px Helvetica sans-serif;
+    font: normal 600 12px Helvetica, sans-serif;
     margin-top: 35px;
 }
 
@@ -111,7 +109,7 @@ body {
     margin-top: 300px;
 }
 
-.tabela td, th {
+.tabela td , th {
     border: 1px solid #ddd;
     text-align: left;
     padding: 8px;
