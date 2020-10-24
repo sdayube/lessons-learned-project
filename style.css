@@ -73,19 +73,19 @@ article p {
 
 /* ----- Seção de listas ----- */
 .list-section {
-  background-color: rgb(47, 44, 71);
+  background-color: rgb(47 , 44 , 71);
   padding: 30px 10%;
   margin: 0 auto;
 }
 
-.list-section::after {
-  content: "";
+.list-section:after {
+  content: '';
   display: table;
   clear: both;
 }
 
 .lista {
-  background-color: rgba(200, 200, 231, 0.959);
+  background-color: rgba(200 , 200 , 231 , 0.959);
   margin: 10px 5px;
   color: rgb(32, 36, 100);
   width: 36vw;
@@ -104,7 +104,6 @@ article p {
 }
 
 .lista h3 {
-  
   margin-left: 23px;
 }
 
