@@ -107,6 +107,20 @@ article p {
   margin-left: 23px;
 }
 
+/* ----- Seção de Tabela ----- */
+.table-section {
+  background-color: rgb(47 , 44 , 71);
+  padding: 10px 10% 30px;
+  margin: auto;
+  color: rgba(200 , 200 , 231 , 0.959);
+}
+
+.table-section:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /* ----- Rodapé ----- */
 nav li {
   display: inline-block;
