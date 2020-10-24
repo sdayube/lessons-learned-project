@@ -111,7 +111,7 @@ article p {
 .table-section {
   background-color: rgb(47 , 44 , 71);
   padding: 10px 10% 30px;
-  margin: auto;
+  margin: -40px auto 0;
   color: rgba(200 , 200 , 231 , 0.959);
 }
 
@@ -121,7 +121,31 @@ article p {
   clear: both;
 }
 
+.main-table {
+  margin: 0 auto;
+  background-color: white;
+  border: solid black;
+  border-radius: 10px;
+  text-align: center;
+  color: rgba(47 , 44 , 71 , 0.616);
+  border-spacing: 0;
+}
+
+.main-table th {
+  border: black solid 1px;
+  padding: 5px
+}
+
+.main-table td {
+  border: black solid 1px;
+  padding: 5px;
+}
+
 /* ----- Rodapé ----- */
 nav li {
   display: inline-block;
 }
+
+/* Referências:
+Arredondamento da tabela: https://shorturl.at/egzCJ 
+*/
