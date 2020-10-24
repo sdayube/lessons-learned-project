@@ -163,7 +163,21 @@ article p {
 /* ----- Rodapé ----- */
 #rodape {
   background-color: black;
-  padding: 1px;
+  color: white;
+  padding: 40 px;
+}
+
+#rodape div {
+  display: inline-block;
+  width: 100%;
+}
+
+#rodape p {
+  text-align: center;
+}
+
+#rodape span {
+  text-decoration: line-through;
 }
 
 /* Referências:
